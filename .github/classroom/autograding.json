@@ -15,7 +15,7 @@
       "setup": "",
       "run": "bash usercreation.sh",
       "input": "betty",
-      "output": "all authentication tokens updated successfully",
+      "output": "Creating home directory",
       "comparison": "included",
       "timeout": 1,
       "points": 20
