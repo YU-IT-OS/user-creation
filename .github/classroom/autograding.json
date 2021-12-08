@@ -3,7 +3,7 @@
     {
       "name": "User Creation - Does it run without Error?",
       "setup": "",
-      "run": "bash usercreation.sh arnold",
+      "run": "sudo bash usercreation.sh arnold",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "User Creation - Does the I/O match?",
       "setup": "",
-      "run": "bash usercreation.sh betty",
+      "run": "sudo bash usercreation.sh betty",
       "input": "",
       "output": "Creating home directory",
       "comparison": "included",
