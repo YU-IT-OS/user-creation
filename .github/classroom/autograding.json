@@ -3,8 +3,8 @@
     {
       "name": "User Creation - Does it run without Error?",
       "setup": "",
-      "run": "bash usercreation.sh",
-      "input": "arnold",
+      "run": "bash usercreation.sh arnold",
+      "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -13,8 +13,8 @@
     {
       "name": "User Creation - Does the I/O match?",
       "setup": "",
-      "run": "bash usercreation.sh",
-      "input": "betty",
+      "run": "bash usercreation.sh betty",
+      "input": "",
       "output": "Creating home directory",
       "comparison": "included",
       "timeout": 1,
